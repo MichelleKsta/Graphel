@@ -43,3 +43,28 @@ nav servicio {
     color: #1c669f;
 }
 
+.suscribete{
+    display: flex;
+    background-color: #24282b;
+    padding: 20px;   
+    align-items: center;
+}
+
+.suscribete h3{
+    padding-right: 58%;
+    margin-left: 60px;
+    color: white;
+}
+
+input{
+    display: flex;
+    height: 20px;
+    padding: 10px;
+    border: none;
+}
+
+button{
+    height: 45px;
+    background-color: #e8491d;
+    border: none;
+}
