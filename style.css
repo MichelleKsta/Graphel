@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    position: fixed 0% 100px;
 }
 
 .encabezado{
@@ -91,3 +92,13 @@ button{
     font-weight: 790;
 }
 
+.lado{
+    width: 20%;
+    background-color: #37444c;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 28%;
+    margin-right: 60px;
+}
