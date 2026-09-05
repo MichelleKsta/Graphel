@@ -71,6 +71,7 @@ button{
     background-color: #e8491d;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 .servicios{
@@ -101,4 +102,17 @@ button{
     right: 0;
     top: 28%;
     margin-right: 60px;
+}
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    background-color: #1c669f;
+    justify-content: center;
+    padding: 25px;
+    width: 100%;
+}
+
+footer p{
+    color: white;
 }
