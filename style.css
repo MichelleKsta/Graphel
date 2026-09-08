@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    width: 68%;
+    margin: auto;
+}
+
+header{
+    height: 95px;
+    background-color: #24282b;
+    border-bottom: 7px solid #1c669f;
+    box-sizing: border-box;
+}
+
+header h1{
+    float: left;
+    margin: 0 0 0 -30px;
+    color: white;
+    font-size: 27px;
+    line-height: 90px;
+}
+
+header h1 span{
+    color: #1c669f;
+}
+
+nav{
+    float: right;
+    margin-top: 0;
+    height: 90px;
+    display: flex;
+    align-items: center;
+   gap: 28px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav .activo{
+    color: #1c669f;
+}
+
+#cabecera{
+    height: 360px;
+    background-image: url("images/cabecera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+#cabecera .contenedor{
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+#cabecera h2{
+    margin: 0;
+    font-size: 50px;
+}
+
+#cabecera p{
+    width: 78%;
+    margin: 15px auto;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+#boletin{
+    height: 85px;
+    background-color: #24282b;
+}
+
+#boletin .contenedor{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#boletin h3{
+    width: 45%;
+    margin: 0 0 0 -30px;
+    color: white;
+    font-size: 22px;
+}
+
+#boletin form{
+    width: 52%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#boletin input{
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
+#boletin button{
+    width: 100px;
+    height: 40px;
+    margin-left: 5px;
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#cajas{
+    padding: 65px 0 45px;
+}
+
+#cajas .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.caja{
+    width: 29%;
+    text-align: center;
+}
+
+.caja img{
+    width: 115px;
+    height: 115px;
+    object-fit: contain;
+}
+
+.caja h3{
+    margin: 16px 0 14px;
+    font-size: 20px;
+}
+
+.caja p{
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+footer{
+    height: 60px;
+    background-color: #1293d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    margin: 0;
+    color: white;
+    font-size: 17px;
+}
