@@ -3,6 +3,139 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.encabezado{
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    height: 100px;
+    background-color: #24282b;
+    border-bottom: 7px solid #1c669f;
+}
+
+header h1{
+    display: inline;
+    color: white;
+
+}
+
+header multimedia{
+    color: #1c669f;
+}
+
+nav {
+    margin-right: 80px;
+    display: flex;
+    align-content: center;
+    gap: 30px;
+}
+
+nav a{
+    align-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+nav servicio {
+    color: #1c669f;
+}
+
+.suscribete{
+    display: flex;
+    background-color: #24282b;
+    padding: 20px;   
+    align-items: center;
+}
+
+.suscribete h2{
+    padding-right: 45%;
+    margin-left: 60px;
+    color: white;
+}
+
+input{
+    display: flex;
+    height: 20px;
+    width: 15%;
+    padding: 10px;
+    margin: 5px;
+}
+
+button{
+    height: 45px;
+    width: 130px;
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.tarjeta{
+    background-color: #e6e6e6;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    width: 65%;
+    border: 1px solid #bbbbbb;
+}
+
+.tarjeta h3{
+    font-weight: 790;
+}
+
+.lado{
+    width: 20%;
+    background-color: #37444c;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 28%;
+    margin-right: 60px;
+}
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    background-color: #1c669f;
+    justify-content: center;
+    padding: 25px;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+}
+
+body > img {
+    width: 23%;
+    height: 257px;
+    position: absolute;
+    right: 60px;
+    top: 56%;
+}
+
+.contacto {
+    width: 65%;
+    margin-left: 60px;
+    margin-top: 18px;
+}
+
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .contenedor{
     width: 68%;
     margin: auto;
