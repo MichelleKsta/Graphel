@@ -163,3 +163,100 @@ footer p{
     color: white;
     font-size: 17px;
 }
+
+
+
+
+#nosotros{
+    padding: 45px 0;
+}
+
+#nosotros .contenedor{
+    width: 68%;
+    margin: auto;
+}
+
+.contenido-nosotros{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.texto-nosotros{
+    width: 65%;
+}
+
+.texto-nosotros h2{
+    margin: 0 0 15px;
+    font-size: 27px;
+    color: #24282b;
+    position: relative;
+    top: -10px;
+}
+
+.texto-nosotros > p{
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 24px;
+    color: #24282b;
+}
+
+.parrafo-oscuro{
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #35424a;
+    color: white;
+}
+
+.parrafo-oscuro p{
+    margin: 0 0 0 -5px;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.imagen-nosotros{
+    width: 100%;
+    height: 240px;
+    display: block;
+    object-fit: cover;
+}
+
+.que-hacemos{
+    width: 27%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    background-color: #35424a;
+    color: white;
+    position: relative;
+    left: -25px;
+    top: -15px;
+}
+
+.que-hacemos h3{
+    margin: 0 0 15px -15px;
+    font-size: 22px;
+}
+
+.que-hacemos p{
+    margin: 0 0 0 -10px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.footer-nosotros{
+    width: 100%;
+    height: 62px;
+    background-color: #1293d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nosotros p{
+    margin: 0;
+    color: white;
+    font-size: 17px;
+}
